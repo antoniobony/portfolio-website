@@ -25,7 +25,7 @@ const Content =()=>{
                     </div>
                     <div className="flex font-semibold mx-auto sm:mx-0 md:text-3xl xl:text-5xl text-xl items-center  mb-4 md:mb-0 gap-3 ">
                         <p className="text-white">I am  a</p>
-                        <span className="cursor-pointer text-purple-400">
+                        <span translate='no' className="cursor-pointer text-purple-400">
                         <Typewriter 
                         options={{
                             strings:["Full stack developer","Mobile developer"],
