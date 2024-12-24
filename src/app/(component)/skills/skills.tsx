@@ -16,7 +16,7 @@ export const Skills=()=>{
             <div className="flex flex-wrap w-full gap-[50px] justify-center mt-[20px] ">
                 {
                     skills.map((skill,index)=>(
-                    <Tilt>
+                    <Tilt key={index}>
                         <div key={index} className=" w-full max-w-[330px] sm:max-w-[500px] h-[339.5px] md:h-[243px] bg-[rgba(17,25,40,0.83)] border-[0.5px] border-[rgba(255,255,255,0.125)]  rounded-2xl pt-[10px]  sm:pt-[18px]  text-gray-300 " 
                         style={{boxShadow:"rgba(23,92,230,0.15) 0px 4px 24px"}}>
                             <div className="text-[28px] font-semibold text-center ">{skill.title}</div>

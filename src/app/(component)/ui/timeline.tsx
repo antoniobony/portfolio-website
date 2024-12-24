@@ -8,6 +8,7 @@ import {
 } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 import ExperienceCard, { exp } from "../Card/ExperienceCard";
+import Image from "next/image";
 
 export const Timeline = ({ data }: { data: exp[]  }) => {
   const ref = useRef<HTMLDivElement>(null);
@@ -48,7 +49,7 @@ export const Timeline = ({ data }: { data: exp[]  }) => {
           >
             <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
-                <img src={item.img} alt="" className="rounded-full"></img>
+                <Image src={item.img} alt={index+""} className="rounded-full" width={40} height={40}/>
               </div>
               <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 dark:text-neutral-500 ">
                 {item.company}
