@@ -51,7 +51,7 @@ const Content =()=>{
                 </motion.div>
                 <motion.div {...headContentAnimation}>
                     <div className='h-[calc(530/2)px] w-[250px] md:h-[530px] md:w-[200px] mb-10 md:mb-0 relative overflow-hidden mx-auto md:mx-0'>
-                        <img src="/assets/profcile.png" alt='profile' width={300} height={300}/>
+                        <Image src="/assets/profcile.png" alt='profile' width={300} height={300}/>
                     </div>
                 </motion.div>
             </div>
