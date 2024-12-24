@@ -20,7 +20,7 @@ export const Skills=()=>{
                         <div key={index} className=" w-full max-w-[330px] sm:max-w-[500px] h-[339.5px] md:h-[243px] bg-[rgba(17,25,40,0.83)] border-[0.5px] border-[rgba(255,255,255,0.125)]  rounded-2xl pt-[10px]  sm:pt-[18px]  text-gray-300 " 
                         style={{boxShadow:"rgba(23,92,230,0.15) 0px 4px 24px"}}>
                             <div className="text-[28px] font-semibold text-center ">{skill.title}</div>
-                            <div className="flex justify-center flex-wrap gap-[12px] mb-[20px] py-5 px-2 mt-5">
+                            <div translate="no" className="flex justify-center flex-wrap gap-[12px] mb-[20px] py-5 px-2 mt-5">
                                 {
                                     skill.skills.map((item,index_x)=>(
                                         <div key={index_x} className="flex flex-row text-[14px] p-2 sm:text-[16px] font-semibold  align-middle justify-center gap-2  text-center border-[0.5px] rounded-xl  border-solid border-[rgba(255,255,255,0.125)] ">
