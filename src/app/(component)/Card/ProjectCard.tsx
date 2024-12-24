@@ -22,7 +22,7 @@ export type project={
 }
 
 const Card = styled.div`
-  width: 330px;
+  width: 300px;
   height: 390px;
   cursor: pointer;
   border-radius: 10px;
