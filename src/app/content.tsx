@@ -39,7 +39,7 @@ const Content =()=>{
                         I approach every opportunity with a positive attitude and a growth mindset. 
                         I am dedicated to making meaningful contributions and achieving excellence.. 
                     </p>
-                    <Link href="./cv.pdf" target='_blank' rel='aza'>
+                    <Link href="./cv.png" target='_blank' rel='aza'>
                         <button  className="flex flex-row justify-between space-x-2 my-auto items-center h-14 mx-auto sm:mx-0 p-2 m-5 relative rounded-xl font-semibold text-lg text-white gradient 
                         hover:scale-105 transition-all duration-500 ease-in-out">
                             <Download stroke='white'/>
