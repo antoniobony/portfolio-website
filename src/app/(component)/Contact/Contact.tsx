@@ -126,6 +126,7 @@ const ContactButton = styled.input`
   color: white;
   font-size: 18px;
   font-weight: 600;
+  cursor:pointer;
 `;
 
 const Contact: React.FC = () => {

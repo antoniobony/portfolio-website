@@ -150,7 +150,7 @@ export const Bio = {
       ],
     },
     */,{
-      title: "Others",
+      title: "CI/CD and versionning tools",
       skills: [
         {
           name: "Git",
@@ -167,6 +167,17 @@ export const Bio = {
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
         },
+        {
+          name: "Github Actions",
+          image:
+            "/assets/github-action.png",
+        },
+        
+      ],
+    },
+    {
+      title: "Developpement tools",
+      skills: [
         {
           name: "VS Code",
           image:
