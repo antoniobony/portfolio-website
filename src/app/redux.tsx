@@ -6,9 +6,6 @@ import {useDispatch,Provider,useSelector,TypedUseSelectorHook} from "react-redux
 import {setupListeners} from "@reduxjs/toolkit/query"
 import { combineReducers,configureStore } from "@reduxjs/toolkit";
 import globalReducer from "@/app/state"
-import authReducer from "@/app/state/authState";
-import {api} from "@/app/state/api"
-
 import {persistStore,persistReducer,FLUSH,REHYDRATE,PAUSE,PERSIST,PURGE,REGISTER} from "redux-persist"
 import { PersistGate } from "redux-persist/integration/react";  
 import createWebStorage
@@ -37,13 +34,11 @@ createWebStorage("local")
 const persistConfig = {
     key:"root",
     storage,
-    whitelist:["global","auth"]    
+    whitelist:["global"]    
 }
 
 const  rootReducer = combineReducers({
     global:globalReducer,
-    auth:authReducer,
-    [api.reducerPath]:api.reducer,
 })
 
 const persistedReducer = persistReducer(persistConfig,rootReducer)
@@ -56,7 +51,7 @@ export const makeStore = ()=>{
                 ignoredActions:[FLUSH,REHYDRATE,PAUSE,PERSIST,PURGE,REGISTER],
                 ignoredPaths: ['api.queries'],
              }
-    }).concat(api.middleware),
+    }),
     })
 }
 

@@ -36,7 +36,7 @@ export const Timeline = ({ data }: { data: exp[]  }) => {
       ref={containerRef}
     >
         <div className="flex flex-col   w-ful max-w-[1100px]  mx-auto">
-            <div className="xl:text-5xl text-4xl mt-[12px] md:font-[52px] font-semibold md:mt-[20px] text-white mx-auto" >Experience</div>
+            <div className="xl:text-5xl text-4xl mt-[12px] md:font-[52px] font-semibold md:mt-[20px] text-white mx-auto" >Experiences</div>
             <div className="text-[18px] xl:text-xl md:text-[16px] font-semibold mt-[20px] md:mt-[40px] text-center text-gray-500">My work experience as a software engineer and working on different
             companies and projects.</div>
         </div>
