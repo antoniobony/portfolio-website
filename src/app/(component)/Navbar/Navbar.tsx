@@ -26,7 +26,7 @@ const Navbar: React.FC<NavbarProps> = ({ isSidebarCollapsed,isDarkMode }) => {
       <div className="md:flex md:space-x-3 relative text-lg text-white hidden px-4">
         <Link href="#About" className="hover:text-purple-600 font-semibold cursor-pointer p-2">About</Link>
         <Link href="#Skills" className="hover:text-purple-600 font-semibold cursor-pointer p-2">Skills</Link>
-        <Link href="#Experience" className="hover:text-purple-600 font-semibold cursor-pointer p-2">Experience</Link>
+        <Link href="#Experience" className="hover:text-purple-600 font-semibold cursor-pointer p-2">Experiences</Link>
         <Link href="#Project" className="hover:text-purple-600 font-semibold cursor-pointer p-2">Projects</Link>
         <Link href="#Contact" className="hover:text-purple-600 font-semibold cursor-pointer p-2">Contact</Link>
       </div>
@@ -35,7 +35,7 @@ const Navbar: React.FC<NavbarProps> = ({ isSidebarCollapsed,isDarkMode }) => {
           <div className="flex flex-col w-full absolute top-14 text-white bg-opacity-40 bg-gray-400 md:hidden">
             <Link href="#About" className="hover:text-purple-600 font-semibold cursor-pointer p-2">About</Link>
             <Link  href="#Skills" className="hover:text-purple-600 font-semibold cursor-pointer p-2">Skills</Link>
-            <Link href="#Experience" className="hover:text-purple-600 font-semibold cursor-pointer p-2">Experience</Link>
+            <Link href="#Experience" className="hover:text-purple-600 font-semibold cursor-pointer p-2">Experiences</Link>
             <Link href="#Project" className="hover:text-purple-600 font-semibold cursor-pointer p-2">Projects</Link>
             <Link href="#Contact" className="hover:text-purple-600 font-semibold cursor-pointer p-2">Contact</Link>
             <Link href={Bio.github} className="hover:text-purple-600 font-semibold cursor-pointer p-2" >Github Profile</Link>

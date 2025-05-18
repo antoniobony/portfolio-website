@@ -179,7 +179,7 @@ const Contact: React.FC = () => {
             rows={4}
             required
           />
-          <ContactButton type="submit" value="Send" />
+          <ContactButton className="active:scale-90 transition-all duration-500 ease-in-out " type="submit" value="Send" />
         </ContactForm>
       </Wrapper>
     </Container>

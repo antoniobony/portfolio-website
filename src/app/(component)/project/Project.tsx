@@ -39,7 +39,7 @@ export function Project(){
                     ref={containerRef}
                     >
                         <div className="flex flex-col   w-ful max-w-[1100px]  mx-auto">
-                            <div className="xl:text-5xl text-4xl mt-[12px] md:font-[52px] font-semibold md:mt-[20px] text-white mx-auto" >Project</div>
+                            <div className="xl:text-5xl text-4xl mt-[12px] md:font-[52px] font-semibold md:mt-[20px] text-white mx-auto" >Projects</div>
                             <div className="text-[18px] xl:text-xl md:text-[16px] font-semibold mt-[20px] md:mt-[40px] text-center text-gray-500">I have worked on a wide range of projects..Here are some of my projects.</div>
                         </div>
 

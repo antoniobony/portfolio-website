@@ -1,4 +1,3 @@
-import { title } from "process";
 import React from "react";
 import {skills} from "@/app/data/constant"
 import  {Tilt} from 'react-tilt'
@@ -13,7 +12,7 @@ export const Skills=()=>{
                 <div className="xl:text-5xl text-4xl mt-[12px] md:font-[52px] font-semibold md:mt-[20px] text-white mx-auto" >Skills</div>
                 <div className="text-[18px] xl:text-xl md:text-[16px] font-semibold mt-[20px] md:mt-[40px] text-center text-gray-500">Here are some of my skills on which I have been working on for the past 3 years.</div>
             </div>
-            <div className="flex flex-wrap w-full gap-[50px] justify-center mt-[20px] ">
+            <div className="flex flex-wrap w-full gap-[50px] justify-center mt-[20px] cursor-pointer ">
                 {
                     skills.map((skill,index)=>(
                     <Tilt key={index}>
@@ -24,8 +23,8 @@ export const Skills=()=>{
                                 {
                                     skill.skills.map((item,index_x)=>(
                                         <div key={index_x} className="flex flex-row text-[14px] p-2 sm:text-[16px] font-semibold  align-middle justify-center gap-2  text-center border-[0.5px] rounded-xl  border-solid border-[rgba(255,255,255,0.125)] ">
-                                                <img src={item.image} alt={index_x+''} width={24} height={24}/>
-                                                <p>{item.name}</p>
+                                                <img src={item?.image} alt={index_x+''} width={24} height={24}/>
+                                                <p>{item?.name}</p>
                                         </div>
                                     ))
                                 }
