@@ -249,48 +249,30 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "Mintab-bhammer",
+      date: "Mars 2025",
+      description:
+        "This project addresses the transportation problem, which involves ensuring the delivery of the quantities demanded by n consumer stores from m supply depots at minimal cos.",
+      image:
+        "/assets/transport.png",
+    },
+    {
+      id: 1,
       title: "digital communication",
       date: "Sept 2024 - Nov 2024",
       description:
         "Built a digital communication system to collect, process, and manage feedback from communities impacted by the Hydroelectric Project in Madagascar. This system aims to facilitate the swift and efficient handling of concerns and requests from local communities by providing a centralized digital platform. By integrating real-time tracking tools, complaint management, and direct communication with stakeholders, the application will ensure a proactive response to raised issues.",
       image:
         "/assets/p1.png",
-      tags: [
-        "Docker",
-        "AWS",
-        "DuckDNS",
-        "Eslint",
-        "Husky",
-        "CI/CD",
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
-      ],
-      category: "web app",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify-management.netlify.app/",
-    },{
-      id: 1,
+       },{
+      id: 2,
       title: "e-delivery",
       date: "Aug 2023 - Nov 2023",
       description:
-        "Applicatin for a delivery agency to streamline and optimize the delivery process. This application aims to automate order management, package tracking, and delivery route planning, while providing a user-friendly interface for customers, delivery drivers, and administrators. The app will allow real-time management of deliveries, ensuring package traceability and providing instant notifications to customers about the status of their orders.",
+        "Project for a delivery agency to streamline and optimize the delivery process. This application aims to automate order management, package tracking, and delivery route planning, while providing a user-friendly interface for customers, delivery drivers, and administrators. The app will allow real-time management of deliveries, ensuring package traceability and providing instant notifications to customers about the status of their orders.",
       image:
         "/assets/p2png.png",
-      tags: [
-        "React Js",
-        "PostgressSQL",
-        "Node Js",
-        "Express Js",
-        "Redux",
-        "React Flow",
-      ],
-      category: "web app",
-      github: "https://github.com/rishavchanda/DecisionHub",
-      webapp: "https://decisionhub.netlify.app/",
-    },
+     },
     
   ];
   
