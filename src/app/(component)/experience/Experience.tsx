@@ -6,7 +6,7 @@ import { exp } from "../Card/ExperienceCard";
 
 export function Experience() {
   return (
-    <div className="w-full relative xl:mt-[180px] mt-10" id="Experiencs">
+    <div className="w-full relative xl:mt-[180px] mt-10" id="Experience">
       <Timeline data={experiences as exp[]} />
     </div>
   );
