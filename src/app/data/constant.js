@@ -179,6 +179,10 @@ export const Bio = {
           image:
             "/assets/github-action.png",
         },
+        {
+          name:"Jenkins",
+          image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTfqhQAynA0YggaP1N6QWFO_hHT6dy1B9vlQ&s"
+        }
         
       ],
     },
