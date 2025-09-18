@@ -12,6 +12,7 @@ import Footer from './Footer/Footer';
 import { Download } from 'lucide-react';
 import Link from 'next/link';
 
+
 const Content =()=>{
     return(
         <>
@@ -50,7 +51,7 @@ const Content =()=>{
                 </div>
                 </motion.div>
                 <motion.div {...headContentAnimation}>
-                    <div className='h-[230px] w-[230px] sm:h-[300px] sm:w-[300px] md:h-[428px] md:w-[428px] border-2 mb-10 md:mb-0 relative overflow-hidden rounded-full mx-auto md:mx-0 borderGradient'>
+                    <div className='h-[300px] w-[300px] md:h-[428px] md:w-[428px]  mb-10 md:mb-0 relative overflow-hidden  mx-auto md:mx-0 borderGradient border-2 rounded-full'>
                         <img src="/assets/antonio1.png" alt='profile' />
                     </div>
                 </motion.div>
