@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import{motion} from "framer-motion";
 
 export type member={
   name: string,
@@ -115,7 +116,16 @@ const Button = styled.a`
 
 const ProjectCard = ({ project }:{project:project}) => {
   return (
-    <Card>
+    <motion.div
+      initial={{y:100,opacity:0}}
+      whileInView={{y:0,opacity:1}}
+      transition={{
+        duration:0.7
+      }}
+      viewport={{ once: true }}
+      exit={{y:0}}
+    >
+      <Card>
       <Image src={project.image} />
       <Tags></Tags>
       <Details>
@@ -124,6 +134,8 @@ const ProjectCard = ({ project }:{project:project}) => {
         <Description className="text-gray-400">{project.description}</Description>
       </Details> 
     </Card>
+    </motion.div>
+    
   );
 };
 

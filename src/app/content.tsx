@@ -17,7 +17,7 @@ const Content =()=>{
         <>
         <div className="flex  justify-center h-full relative pt-[80px] px-[30px] z-10 md:pt-[66px]  sm:[32px] sm:px-4">
             <motion.div {...headContainerAnimation}>
-            <div className="flex flex-col-reverse h-full w-full md:space-x-56  md:flex-row xl:mt-16">
+            <div className="flex flex-col-reverse h-full w-full md:space-x-56  lg:flex-row xl:mt-16">
                 <motion.div {...headTextAnimation}>
                 <div className="flex flex-col w-full space-y-4  md:mb-[80px] sm:pl-10 max-w-[700px]">
                     <div className="flex xl:text-6xl  mx-auto sm:mx-0 md:mb-2 text-center text-3xl md:text-4xl font-bold  text-white ">
@@ -50,8 +50,8 @@ const Content =()=>{
                 </div>
                 </motion.div>
                 <motion.div {...headContentAnimation}>
-                    <div className='h-[calc(530/2)px] w-[250px] md:h-[530px] md:w-[200px] mb-10 md:mb-0 relative overflow-hidden mx-auto md:mx-0'>
-                        <Image src="/assets/profcile.png" alt='profile' width={300} height={300}/>
+                    <div className='h-[230px] w-[230px] sm:h-[300px] sm:w-[300px] md:h-[428px] md:w-[428px] border-2 mb-10 md:mb-0 relative overflow-hidden rounded-full mx-auto md:mx-0 borderGradient'>
+                        <img src="/assets/antonio1.png" alt='profile' />
                     </div>
                 </motion.div>
             </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import styled from "styled-components";
+import {motion } from "framer-motion"
+import { experienceContentAnimation } from "../ui/motion";
 
 export type exp={
     id: number,
@@ -95,7 +97,8 @@ const ItemWrapper = styled.div`
 
 const ExperienceCard = ({ experience }:{experience:exp}) => {
   return (
-    <div
+    <motion.div
+      {...experienceContentAnimation}
       style={{
         display: "flex",
         flexDirection: "column",
@@ -135,7 +138,7 @@ const ExperienceCard = ({ experience }:{experience:exp}) => {
           </>
         )}
       </Description>
-    </div>
+    </motion.div>
   );
 };
 

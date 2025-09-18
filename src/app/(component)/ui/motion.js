@@ -63,6 +63,33 @@ export const headContentAnimation = {
   },
 };
 
+export const skillsContentAnimation = {
+  initial: { y: 100, opacity: 0 },
+  whileInView: { y: 0, opacity: 1 },
+  transition: {
+    type: "spring",
+    damping: 7,
+    stiffness: 30,
+    restDelta: 0.001,
+    duration: 0.6,
+    delay: 0.2,
+    delayChildren: 0.2,
+  },
+  exit:{ y: 100, opacity: 0 },
+  viewport:{ once: true }
+};
+
+export const experienceContentAnimation = {
+  initial:{scale:0.7},
+      whileInView:{scale:1},
+      transition:{
+        duration: 1,
+          scale: { type: "spring", visualDuration: 0.7, bounce: 0.4 },
+          ease:"anticipate",
+  },
+  viewport:{ once: true }
+}
+
 export const headContainerAnimation = {
   initial: { x: -100, opacity: 0, transition: { ...transition, delay: 0.5 } },
   animate: { x: 0, opacity: 1, transition: { ...transition, delay: 0 } },
