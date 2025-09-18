@@ -59,7 +59,7 @@ export const Timeline = ({ data }: { data: exp[]  }) => {
               <h3 translate="no" className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
                 {item.company}
               </h3>
-              <ExperienceCard experience={item} key={index}/>{" "}
+              <ExperienceCard experience={item} key={index}/>
             </div>
 
           </div>

@@ -2,11 +2,11 @@ import React from "react";
 import {skills} from "@/app/data/constant"
 import  {Tilt} from 'react-tilt'
 import {motion } from "framer-motion"
-import { headContentAnimation } from "../ui/motion";
+import { skillsContentAnimation } from "../ui/motion";
 
 export const Skills=()=>{
     return(
-        <motion.div {...headContentAnimation}>
+        <motion.div {...skillsContentAnimation}>
             <div className="flex flex-col justify-center relative z-[1] mx-auto mt-10 xl:mt-[220px]" id="Skills">
             <div className="flex flex-col   w-ful max-w-[1100px]  mx-auto">
                 <div className="xl:text-5xl text-4xl mt-[12px] md:font-[52px] font-semibold md:mt-[20px] text-white mx-auto" >Skills</div>

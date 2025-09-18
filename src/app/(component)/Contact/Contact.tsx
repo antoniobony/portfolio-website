@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 import { SnackbarProvider, enqueueSnackbar } from 'notistack'
+import {motion } from "framer-motion"
 
 const Container = styled.div`
   display: flex;
@@ -169,7 +170,19 @@ const Contact: React.FC = () => {
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle className="mx-auto">Email Me 🚀</ContactTitle>
+          <ContactTitle className="mx-auto flex-row">Email Me 
+            <motion.div
+              initial={{ opacity: 1,x:100 }}
+              whileInView={{ opacity: 1,x:120,y:-10 }}
+              transition={{
+                duration: 1,
+                scale: { type: "spring", visualDuration: 1, bounce: 1 },
+                ease:"easeIn"
+            }}
+            >
+            🚀
+            </motion.div>
+            </ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" required />
           <ContactInput placeholder="Your Name" name="from_name" required />
           <ContactInput placeholder="Subject" name="subject" required />
