@@ -217,7 +217,7 @@ export const Bio = {
     {
       id: 0,
       img: "/assets/Logo_Valios.png",
-      role: "Full Stack Developer intern.",
+      role: "FullStack Developer",
       company: "VALIOS Consulting",
       date: "Sept 2024 - Nov 2024",
       desc: "Built a project for a digitalized communication system tailored to VALIOS Consulting, combining a REST API backend built with Spring Boot to handle key features such as user management, communication, and data exchange, with a frontend interface designed using Next.js to provide a smooth and responsive user experience. This solution aims to centralize and optimize the company's internal and external communication processes by delivering a custom and efficient digital platform.",
@@ -268,15 +268,7 @@ export const Bio = {
         "Built a digital communication system to collect, process, and manage feedback from communities impacted by the Hydroelectric Project in Madagascar. This system aims to facilitate the swift and efficient handling of concerns and requests from local communities by providing a centralized digital platform. By integrating real-time tracking tools, complaint management, and direct communication with stakeholders, the application will ensure a proactive response to raised issues.",
       image:
         "/assets/p1.png",
-       },{
-      id: 2,
-      title: "e-delivery",
-      date: "Aug 2023 - Nov 2023",
-      description:
-        "Project for a delivery agency to streamline and optimize the delivery process. This application aims to automate order management, package tracking, and delivery route planning, while providing a user-friendly interface for customers, delivery drivers, and administrators. The app will allow real-time management of deliveries, ensuring package traceability and providing instant notifications to customers about the status of their orders.",
-      image:
-        "/assets/p2png.png",
-     },
+       }
     
   ];
   
